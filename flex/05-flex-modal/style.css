@@ -15,11 +15,26 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
 }
 
 .icon {
@@ -51,12 +66,15 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  display: flex;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  display: flex;
+  justify-content: flex-start;
 }
 
 button.cancel {
